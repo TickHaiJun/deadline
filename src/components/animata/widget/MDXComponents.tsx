@@ -1,5 +1,5 @@
 // components/MDXComponents.js
-const Heading: React.FC<HeadingProps> = ({ level, className, children }) => {
+const Heading: React.FC<any> = ({ level, className, children }) => {
   const HeadingTag = `h${level}` as keyof JSX.IntrinsicElements;
   const headingId = children?.toString() ?? "";
 
