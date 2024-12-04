@@ -79,7 +79,7 @@ export default function Times() {
 
   return (
     //   backgroundSize: 'cover'
-    <div className="w-screen h-screen  " style={{ backgroundImage: `url('/assets/cjdjs.png')`, }}>
+    <div className="w-screen  " style={{ backgroundImage: `url('/assets/cjdjs.png')`, }}>
 
 
       <div className="lantern-box">
