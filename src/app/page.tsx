@@ -21,14 +21,14 @@ interface Festival {
 const festivals: Festival[] = [
   // { label: '海军的生日', currentTime: '2025-05-11' },
   // { label: '光棍节', currentTime: '2024-11-11' },
-  { label: '元旦', currentTime: '2025-01-01' },
-  { label: '春节', currentTime: '2025-01-28' },
-  { label: '元宵节', currentTime: '2025-02-12' },
   { label: '清明节', currentTime: '2025-04-04' },
   { label: '劳动节', currentTime: '2025-05-01' },
   { label: '端午节', currentTime: '2025-06-07' },
   { label: '中秋节', currentTime: '2025-09-29' },
   { label: '国庆节', currentTime: '2025-10-01' },
+  { label: '元旦', currentTime: '2026-01-01' },
+  { label: '春节', currentTime: '2026-02-17' },
+  { label: '元宵节', currentTime: '2026-03-03' },
 ];
 
 const calculateRemainingTime = (festival: Festival, now: dayjs.Dayjs) => {
@@ -80,8 +80,8 @@ export default function Times() {
   return (
     //   backgroundSize: 'cover'
     <div className="w-screen min-h-screen bg-cover bg-center bg-no-repeat  " style={{ backgroundImage: `url('/assets/cjdjs.png')`, }}>
-
-
+<img src="https://count.getloli.com/@haijun?name=haijun&theme=miku&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt=":name" />
+{/* 
       <div className="lantern-box">
         <div className="lantern">
           <div className="lantern-line"></div>
@@ -95,8 +95,11 @@ export default function Times() {
             <div className="lantern-tassel-middle"></div>
           </div>
         </div>
-      </div>
+      </div> */}
 
+{/* https://count.getloli.com/@haijun?name=haijun&theme=miku&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto */}
+
+{/* <img src="https://count.getloli.com/@haijun?name=haijun&theme=miku&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt=":name" />
       <div className="lantern-box lantern-box1">
         <div className="lantern">
           <div className="lantern-line"></div>
@@ -140,7 +143,7 @@ export default function Times() {
             <div className="lantern-tassel-middle"></div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* <img src="https://upcdn.maowu.com/cjdjs.png"></img> */}
       <div className="w-full h-[260px] flex items-center   justify-between text-3xl text-white px-5">
@@ -151,7 +154,7 @@ export default function Times() {
 
       </div>
       <div className="text-xl text-center pt-2 text-white flex items-center justify-center">
-      <Profile  />
+      {/* <Profile  /> */}
         {/* 当前时间: {currentTime?.format('YYYY年MM月DD日 HH:mm:ss') || '加载中...'} */}
       </div>
       <div className="w-full flex flex-wrap justify-center">
