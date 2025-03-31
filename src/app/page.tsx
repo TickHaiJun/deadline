@@ -23,7 +23,7 @@ const festivals: Festival[] = [
   // { label: '光棍节', currentTime: '2024-11-11' },
   { label: '清明节', currentTime: '2025-04-04' },
   { label: '劳动节', currentTime: '2025-05-01' },
-  { label: '端午节', currentTime: '2025-06-07' },
+  { label: '端午节', currentTime: '2025-05-31' },                                                                                                     
   { label: '中秋节', currentTime: '2025-09-29' },
   { label: '国庆节', currentTime: '2025-10-01' },
   { label: '元旦', currentTime: '2026-01-01' },
