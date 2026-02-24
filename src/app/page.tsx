@@ -316,7 +316,7 @@ const FlipCard = ({ item, category }: { item: any; category: "exam" | "holiday" 
         >
           <Quote className="w-10 h-10 text-slate-300 dark:text-slate-600 mb-4 opacity-50" />
           <h4 className="text-lg font-bold text-slate-800 dark:text-slate-100 mb-2">{item.name}</h4>
-          <p className={cn("text-base font-medium", colorClass)}>"{blessing}"</p>
+          <p className={cn("text-base font-medium", colorClass)}>&quot;{blessing}&quot;</p>
           <div className="absolute bottom-6 flex items-center gap-1 text-[10px] text-slate-400 uppercase tracking-widest">
             <IconComponent size={12} /> {category === "exam" ? "Target 2026" : "Enjoy 2026"}
           </div>
