@@ -1,16 +1,20 @@
 import type { NextConfig } from "next";
-const withMDX = require('@next/mdx')({
+
+const withMDX = require("@next/mdx")({
   extension: /\.mdx?$/,
 });
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "img2024.cnblogs.com",
+        pathname: "/**",
+      },
+    ],
+  },
+  pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
 };
 
-
-module.exports = withMDX({
-  // 其他 Next.js 配置
-  pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
-});
-
-export default nextConfig;
+export default withMDX(nextConfig);
